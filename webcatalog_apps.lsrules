@@ -7,7 +7,8 @@
       "process": "\/Users\/Ian\/Applications\/500px.app\/Contents\/MacOS\/500px",
       "remote-domains": [
         "500px.com",
-        "500px.org"
+        "500px.org",
+        "webcatalog.io"
       ]
     },
     {
@@ -20,7 +21,8 @@
       "process": "\/Users\/Ian\/Applications\/500px.app\/Contents\/Frameworks\/500px Helper.app\/Contents\/MacOS\/500px Helper",
       "remote-domains": [
         "500px.com",
-        "500px.org"
+        "500px.org",
+        "webcatalog.io"
       ]
     },
     {
@@ -34,7 +36,8 @@
       "remote-hosts": [
         "a0.muscache.com",
         "airbnb-api.arkoselabs.com",
-        "maps.googleapis.com"
+        "maps.googleapis.com",
+        "webcatalog.io"
       ]
     },
     {
@@ -43,7 +46,8 @@
       "remote-domains": [
         "airbnb.co.uk",
         "airbnb.com",
-        "gstatic.com"
+        "gstatic.com",
+        "webcatalog.io"
       ]
     },
     {
@@ -57,7 +61,8 @@
       "remote-hosts": [
         "a0.muscache.com",
         "airbnb-api.arkoselabs.com",
-        "maps.googleapis.com"
+        "maps.googleapis.com",
+        "webcatalog.io"
       ]
     },
     {
@@ -66,7 +71,8 @@
       "remote-domains": [
         "airbnb.co.uk",
         "airbnb.com",
-        "gstatic.com"
+        "gstatic.com",
+        "webcatalog.io"
       ]
     },
     {
@@ -80,7 +86,8 @@
       "remote-domains": [
         "amazon.co.uk",
         "amazon.com",
-        "media-amazon.com"
+        "media-amazon.com",
+        "webcatalog.io"
       ]
     },
     {
@@ -94,7 +101,8 @@
       "remote-domains": [
         "amazon.co.uk",
         "amazon.com",
-        "media-amazon.com"
+        "media-amazon.com",
+        "webcatalog.io"
       ]
     },
     {
@@ -108,7 +116,8 @@
       "remote-domains": [
         "ancestry.co.uk",
         "ancestry.com",
-        "ancestrycdn.com"
+        "ancestrycdn.com",
+        "webcatalog.io"
       ]
     },
     {
@@ -122,7 +131,8 @@
       "remote-domains": [
         "ancestry.co.uk",
         "ancestry.com",
-        "ancestrycdn.com"
+        "ancestrycdn.com",
+        "webcatalog.io"
       ]
     },
     {
@@ -140,7 +150,8 @@
         "awsapps.com",
         "awsstatic.com",
         "cloudfront.net",
-        "signin.aws"
+        "signin.aws",
+        "webcatalog.io"
       ]
     },
     {
@@ -158,7 +169,8 @@
         "awsapps.com",
         "awsstatic.com",
         "cloudfront.net",
-        "signin.aws"
+        "signin.aws",
+        "webcatalog.io"
       ]
     },
     {
@@ -178,7 +190,8 @@
         "media-amazon.com",
         "siege-amazon.com",
         "skillbuilder.aws",
-        "ssl-images-amazon.com"
+        "ssl-images-amazon.com",
+        "webcatalog.io"
       ]
     },
     {
@@ -198,7 +211,8 @@
         "media-amazon.com",
         "siege-amazon.com",
         "skillbuilder.aws",
-        "ssl-images-amazon.com"
+        "ssl-images-amazon.com",
+        "webcatalog.io"
       ]
     },
     {
@@ -216,7 +230,8 @@
         "microsoft.com",
         "microsoftonline.com",
         "msauth.net",
-        "msftauth.net"
+        "msftauth.net",
+        "webcatalog.io"
       ]
     },
     {
@@ -234,7 +249,8 @@
         "microsoft.com",
         "microsoftonline.com",
         "msauth.net",
-        "msftauth.net"
+        "msftauth.net",
+        "webcatalog.io"
       ]
     },
     {
@@ -255,7 +271,8 @@
         "msftauth.net",
         "msidentity.com",
         "sharepointonline.com",
-        "visualstudio.com"
+        "visualstudio.com",
+        "webcatalog.io"
       ]
     },
     {
@@ -276,7 +293,8 @@
         "msftauth.net",
         "msidentity.com",
         "sharepointonline.com",
-        "visualstudio.com"
+        "visualstudio.com",
+        "webcatalog.io"
       ]
     },
     {
@@ -290,7 +308,8 @@
       "remote-domains": [
         "auth0.com",
         "cloudflare.com",
-        "openai.com"
+        "openai.com",
+        "webcatalog.io"
       ]
     },
     {
@@ -304,7 +323,8 @@
       "remote-domains": [
         "auth0.com",
         "cloudflare.com",
-        "openai.com"
+        "openai.com",
+        "webcatalog.io"
       ]
     },
     {
@@ -323,7 +343,8 @@
       "remote-domains": [
         "cloudfront.net",
         "crossway.org",
-        "esv.org"
+        "esv.org",
+        "webcatalog.io"
       ]
     },
     {
@@ -342,7 +363,8 @@
       "remote-domains": [
         "cloudfront.net",
         "crossway.org",
-        "esv.org"
+        "esv.org",
+        "webcatalog.io"
       ]
     },
     {
@@ -353,7 +375,10 @@
     {
       "action": "allow",
       "process": "\/Users\/Ian\/Applications\/Excalidraw.app\/Contents\/MacOS\/Excalidraw",
-      "remote-domains": "excalidraw.com"
+      "remote-domains": [
+        "excalidraw.com",
+        "webcatalog.io"
+      ]
     },
     {
       "action": "deny",
@@ -363,7 +388,10 @@
     {
       "action": "allow",
       "process": "\/Users\/Ian\/Applications\/Excalidraw.app\/Contents\/Frameworks\/Excalidraw Helper.app\/Contents\/MacOS\/Excalidraw Helper",
-      "remote-domains": "excalidraw.com"
+      "remote-domains": [
+        "excalidraw.com",
+        "webcatalog.io"
+      ]
     },
     {
       "action": "deny",
@@ -373,7 +401,10 @@
     {
       "action": "allow",
       "process": "\/Users\/Ian\/Applications\/FreeAgent.app\/Contents\/MacOS\/FreeAgent",
-      "remote-domains": "freeagent.com"
+      "remote-domains": [
+        "freeagent.com",
+        "webcatalog.io"
+      ]
     },
     {
       "action": "deny",
@@ -383,7 +414,10 @@
     {
       "action": "allow",
       "process": "\/Users\/Ian\/Applications\/FreeAgent.app\/Contents\/Frameworks\/FreeAgent Helper.app\/Contents\/MacOS\/FreeAgent Helper",
-      "remote-domains": "freeagent.com"
+      "remote-domains": [
+        "freeagent.com",
+        "webcatalog.io"
+      ]
     },
     {
       "action": "deny",
@@ -396,7 +430,8 @@
       "remote-domains": [
         "github.com",
         "githubassets.com",
-        "githubusercontent.com"
+        "githubusercontent.com",
+        "webcatalog.io"
       ]
     },
     {
@@ -410,7 +445,8 @@
       "remote-domains": [
         "github.com",
         "githubassets.com",
-        "githubusercontent.com"
+        "githubusercontent.com",
+        "webcatalog.io"
       ]
     },
     {
@@ -446,7 +482,8 @@
         "facebook.com",
         "facebook.net",
         "fbcdn.net",
-        "instagram.com"
+        "instagram.com",
+        "webcatalog.io"
       ]
     },
     {
@@ -462,7 +499,8 @@
         "facebook.com",
         "facebook.net",
         "fbcdn.net",
-        "instagram.com"
+        "instagram.com",
+        "webcatalog.io"
       ]
     },
     {
@@ -475,7 +513,8 @@
       "process": "\/Users\/Ian\/Applications\/LinkedIn.app\/Contents\/MacOS\/LinkedIn",
       "remote-domains": [
         "licdn.com",
-        "linkedin.com"
+        "linkedin.com",
+        "webcatalog.io"
       ]
     },
     {
@@ -488,7 +527,8 @@
       "process": "\/Users\/Ian\/Applications\/LinkedIn.app\/Contents\/Frameworks\/LinkedIn Helper.app\/Contents\/MacOS\/LinkedIn Helper",
       "remote-domains": [
         "licdn.com",
-        "linkedin.com"
+        "linkedin.com",
+        "webcatalog.io"
       ]
     },
     {
@@ -507,7 +547,8 @@
       "remote-domains": [
         "amazonaws.com",
         "cloudfront.net",
-        "manning.com"
+        "manning.com",
+        "webcatalog.io"
       ]
     },
     {
@@ -526,7 +567,8 @@
       "remote-domains": [
         "amazonaws.com",
         "cloudfront.net",
-        "manning.com"
+        "manning.com",
+        "webcatalog.io"
       ]
     },
     {
@@ -549,7 +591,8 @@
       "remote-domains": [
         "faithlife.com",
         "logos.com",
-        "logoscdn.com"
+        "logoscdn.com",
+        "webcatalog.io"
       ]
     },
     {
@@ -572,7 +615,8 @@
       "remote-domains": [
         "faithlife.com",
         "logos.com",
-        "logoscdn.com"
+        "logoscdn.com",
+        "webcatalog.io"
       ]
     },
     {
@@ -585,7 +629,8 @@
       "process": "\/Users\/Ian\/Applications\/Matter.app\/Contents\/MacOS\/Matter",
       "remote-domains": [
         "getmatter.app",
-        "getmatter.com"
+        "getmatter.com",
+        "webcatalog.io"
       ]
     },
     {
@@ -598,7 +643,8 @@
       "process": "\/Users\/Ian\/Applications\/Matter.app\/Contents\/Frameworks\/Matter Helper.app\/Contents\/MacOS\/Matter Helper",
       "remote-domains": [
         "getmatter.app",
-        "getmatter.com"
+        "getmatter.com",
+        "webcatalog.io"
       ]
     },
     {
@@ -611,7 +657,8 @@
       "process": "\/Users\/Ian\/Applications\/Plex.app\/Contents\/MacOS\/Plex",
       "remote-domains": [
         "plex.tv",
-        "plexvideos.com"
+        "plexvideos.com",
+        "webcatalog.io"
       ]
     },
     {
@@ -629,7 +676,8 @@
       "process": "\/Users\/Ian\/Applications\/Plex.app\/Contents\/Frameworks\/Plex Helper.app\/Contents\/MacOS\/Plex Helper",
       "remote-domains": [
         "plex.tv",
-        "plexvideos.com"
+        "plexvideos.com",
+        "webcatalog.io"
       ]
     },
     {
@@ -658,7 +706,8 @@
       "process": "\/Users\/Ian\/Applications\/Rightmove.app\/Contents\/MacOS\/Rightmove",
       "remote-domains": [
         "arkoselabs.com",
-        "rightmove.co.uk"
+        "rightmove.co.uk",
+        "webcatalog.io"
       ]
     },
     {
@@ -682,7 +731,8 @@
       "process": "\/Users\/Ian\/Applications\/Rightmove.app\/Contents\/Frameworks\/Rightmove Helper.app\/Contents\/MacOS\/Rightmove Helper",
       "remote-domains": [
         "arkoselabs.com",
-        "rightmove.co.uk"
+        "rightmove.co.uk",
+        "webcatalog.io"
       ]
     },
     {
@@ -705,7 +755,8 @@
         "gravatar.com",
         "s3.amazonaws.com",
         "slid.es",
-        "slides.com"
+        "slides.com",
+        "webcatalog.io"
       ]
     },
     {
@@ -728,7 +779,8 @@
         "gravatar.com",
         "s3.amazonaws.com",
         "slid.es",
-        "slides.com"
+        "slides.com",
+        "webcatalog.io"
       ]
     },
     {
@@ -776,7 +828,8 @@
         "mytimesplus.co.uk",
         "thesundaytimes.co.uk",
         "thetimes.co.uk",
-        "timesmembership.com"
+        "timesmembership.com",
+        "webcatalog.io"
       ]
     },
     {
@@ -804,7 +857,8 @@
         "mytimesplus.co.uk",
         "thesundaytimes.co.uk",
         "thetimes.co.uk",
-        "timesmembership.com"
+        "timesmembership.com",
+        "webcatalog.io"
       ]
     },
     {
@@ -817,7 +871,8 @@
       "process": "\/Users\/Ian\/Applications\/Udemy.app\/Contents\/MacOS\/Udemy",
       "remote-domains": [
         "udemy.com",
-        "udemycdn.com"
+        "udemycdn.com",
+        "webcatalog.io"
       ]
     },
     {
@@ -830,7 +885,8 @@
       "process": "\/Users\/Ian\/Applications\/Udemy.app\/Contents\/Frameworks\/Udemy Helper.app\/Contents\/MacOS\/Udemy Helper",
       "remote-domains": [
         "udemy.com",
-        "udemycdn.com"
+        "udemycdn.com",
+        "webcatalog.io"
       ]
     },
     {
