@@ -3,6 +3,26 @@
   "description": "Rules to control the various browser-based apps created by WebCatalog.",
   "rules": [
     {
+      "action" : "allow",
+      "process" : "\/Applications\/WebCatalog.app\/Contents\/MacOS\/WebCatalog",
+      "remote-domains" : "webcatalog.io"
+    },
+    {
+      "action" : "deny",
+      "process" : "\/Applications\/WebCatalog.app\/Contents\/MacOS\/WebCatalog",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "process" : "\/Applications\/WebCatalog.app\/Contents\/Frameworks\/WebCatalog Helper.app\/Contents\/MacOS\/WebCatalog Helper",
+      "remote-domains" : "webcatalog.io"
+    },
+    {
+      "action" : "deny",
+      "process" : "\/Applications\/WebCatalog.app\/Contents\/Frameworks\/WebCatalog Helper.app\/Contents\/MacOS\/WebCatalog Helper",
+      "remote" : "any"
+    },
+    {
       "action": "allow",
       "process": "\/Users\/Ian\/Applications\/500px.app\/Contents\/MacOS\/500px",
       "remote-domains": [
