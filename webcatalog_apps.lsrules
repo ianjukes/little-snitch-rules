@@ -457,6 +457,11 @@
     {
       "action": "allow",
       "process": "\/Users\/Ian\/Applications\/Home Assistant.app\/Contents\/MacOS\/Home Assistant",
+      "remote-domains": "webcatalog.io"
+    },
+    {
+      "action": "allow",
+      "process": "\/Users\/Ian\/Applications\/Home Assistant.app\/Contents\/MacOS\/Home Assistant",
       "remote": "local-net"
     },
     {
@@ -467,6 +472,11 @@
     {
       "action": "allow",
       "process": "\/Users\/Ian\/Applications\/Home Assistant.app\/Contents\/Frameworks\/Home Assistant Helper.app\/Contents\/MacOS\/Home Assistant Helper",
+      "remote-domains": "webcatalog.io"
+    },
+    {
+      "action": "allow",
+      "process": "\/Users\/Ian\/Applications\/Home Assistant.app\/Contents\/Frameworks\/Home Assistant Helper.app\/Contents\/MacOS\/Home Assistant Helper",
       "remote": "local-net"
     },
     {
@@ -791,6 +801,11 @@
     {
       "action": "allow",
       "process": "\/Users\/Ian\/Applications\/Synology NAS.app\/Contents\/MacOS\/Synology NAS",
+      "remote-domains": "webcatalog.io"
+    },
+    {
+      "action": "allow",
+      "process": "\/Users\/Ian\/Applications\/Synology NAS.app\/Contents\/MacOS\/Synology NAS",
       "remote": "local-net"
     },
     {
@@ -801,6 +816,11 @@
     {
       "action": "allow",
       "process": "\/Users\/Ian\/Applications\/Synology NAS.app\/Contents\/Frameworks\/Synology NAS Helper.app\/Contents\/MacOS\/Synology NAS Helper",
+      "remote-domains": "webcatalog.io"
+    },
+    {
+      "action": "allow",
+      "process": "\/Users\/Ian\/Applications\/Synology NAS.app\/Contents\/Frameworks\/Synology NAS Helper.app\/Contents\/MacOS\/Synology NAS Helper",
       "remote": "local-net"
     },
     {
@@ -897,12 +917,22 @@
     {
       "action": "allow",
       "process": "\/Users\/Ian\/Applications\/UniFi Controller.app\/Contents\/MacOS\/UniFi Controller",
+      "remote-domains": "webcatalog.io"
+    },
+    {
+      "action": "allow",
+      "process": "\/Users\/Ian\/Applications\/UniFi Controller.app\/Contents\/MacOS\/UniFi Controller",
       "remote": "local-net"
     },
     {
       "action": "deny",
       "process": "\/Users\/Ian\/Applications\/UniFi Controller.app\/Contents\/MacOS\/UniFi Controller",
       "remote": "any"
+    },
+    {
+      "action": "allow",
+      "process": "\/Users\/Ian\/Applications\/UniFi Controller.app\/Contents\/Frameworks\/UniFi Controller Helper.app\/Contents\/MacOS\/UniFi Controller Helper",
+      "remote-domains": "webcatalog.io"
     },
     {
       "action": "allow",
