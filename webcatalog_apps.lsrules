@@ -1,6 +1,6 @@
 {
   "name": "WebCatalog Apps",
-  "description": "Rules to control the various browser-based apps installed in ~/Applications by WebCatalog.",
+  "description": "Rules to control the various browser-based apps installed in \/Users\/Ian\/Applications by WebCatalog.",
   "rules": [
     {
       "action": "allow",
