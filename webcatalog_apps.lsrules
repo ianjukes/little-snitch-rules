@@ -402,7 +402,10 @@
       "action": "allow",
       "process": "\/Users\/Ian\/Applications\/Excalidraw.app\/Contents\/MacOS\/Excalidraw",
       "remote-domains": [
+        "digitaloceanspaces.com",
         "excalidraw.com",
+        "firebaseapp.com",
+        "googleapis.com",
         "webcatalog.io"
       ]
     },
@@ -415,7 +418,10 @@
       "action": "allow",
       "process": "\/Users\/Ian\/Applications\/Excalidraw.app\/Contents\/Frameworks\/Excalidraw Helper.app\/Contents\/MacOS\/Excalidraw Helper",
       "remote-domains": [
+        "digitaloceanspaces.com",
         "excalidraw.com",
+        "firebaseapp.com",
+        "googleapis.com",
         "webcatalog.io"
       ]
     },
