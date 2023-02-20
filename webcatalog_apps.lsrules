@@ -5,7 +5,10 @@
     {
       "action" : "allow",
       "process" : "\/Applications\/WebCatalog.app\/Contents\/MacOS\/WebCatalog",
-      "remote-domains" : "webcatalog.io"
+      "remote-domains" : [
+        "elastic-cloud.com",
+        "webcatalog.io"
+      ]
     },
     {
       "action" : "deny",
@@ -15,7 +18,10 @@
     {
       "action" : "allow",
       "process" : "\/Applications\/WebCatalog.app\/Contents\/Frameworks\/WebCatalog Helper.app\/Contents\/MacOS\/WebCatalog Helper",
-      "remote-domains" : "webcatalog.io"
+      "remote-domains" : [
+        "elastic-cloud.com",
+        "webcatalog.io"
+      ]
     },
     {
       "action" : "deny",
