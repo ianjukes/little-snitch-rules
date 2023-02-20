@@ -112,6 +112,8 @@
       "remote-domains": [
         "amazon.co.uk",
         "amazon.com",
+        "associates-amazon.com",
+        "cloudfront.net",
         "media-amazon.com",
         "webcatalog.io"
       ]
@@ -127,6 +129,8 @@
       "remote-domains": [
         "amazon.co.uk",
         "amazon.com",
+        "associates-amazon.com",
+        "cloudfront.net",
         "media-amazon.com",
         "webcatalog.io"
       ]
