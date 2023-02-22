@@ -3,34 +3,34 @@
   "description": "Rules to control the various browser-based apps created by WebCatalog.",
   "rules": [
     {
-      "action" : "allow",
-      "process" : "\/Applications\/WebCatalog.app\/Contents\/MacOS\/WebCatalog",
-      "remote-domains" : [
+      "action": "allow",
+      "process": "/Applications/WebCatalog.app/Contents/MacOS/WebCatalog",
+      "remote-domains": [
         "elastic-cloud.com",
         "webcatalog.io"
       ]
     },
     {
-      "action" : "deny",
-      "process" : "\/Applications\/WebCatalog.app\/Contents\/MacOS\/WebCatalog",
-      "remote" : "any"
-    },
-    {
-      "action" : "allow",
-      "process" : "\/Applications\/WebCatalog.app\/Contents\/Frameworks\/WebCatalog Helper.app\/Contents\/MacOS\/WebCatalog Helper",
-      "remote-domains" : [
-        "elastic-cloud.com",
-        "webcatalog.io"
-      ]
-    },
-    {
-      "action" : "deny",
-      "process" : "\/Applications\/WebCatalog.app\/Contents\/Frameworks\/WebCatalog Helper.app\/Contents\/MacOS\/WebCatalog Helper",
-      "remote" : "any"
+      "action": "deny",
+      "process": "/Applications/WebCatalog.app/Contents/MacOS/WebCatalog",
+      "remote": "any"
     },
     {
       "action": "allow",
-      "process": "\/Users\/Ian\/Applications\/500px.app\/Contents\/MacOS\/500px",
+      "process": "/Applications/WebCatalog.app/Contents/Frameworks/WebCatalog Helper.app/Contents/MacOS/WebCatalog Helper",
+      "remote-domains": [
+        "elastic-cloud.com",
+        "webcatalog.io"
+      ]
+    },
+    {
+      "action": "deny",
+      "process": "/Applications/WebCatalog.app/Contents/Frameworks/WebCatalog Helper.app/Contents/MacOS/WebCatalog Helper",
+      "remote": "any"
+    },
+    {
+      "action": "allow",
+      "process": "/Users/Ian/Applications/500px.app/Contents/MacOS/500px",
       "remote-domains": [
         "500px.com",
         "500px.org",
@@ -39,12 +39,12 @@
     },
     {
       "action": "deny",
-      "process": "\/Users\/Ian\/Applications\/500px.app\/Contents\/MacOS\/500px",
+      "process": "/Users/Ian/Applications/500px.app/Contents/MacOS/500px",
       "remote": "any"
     },
     {
       "action": "allow",
-      "process": "\/Users\/Ian\/Applications\/500px.app\/Contents\/Frameworks\/500px Helper.app\/Contents\/MacOS\/500px Helper",
+      "process": "/Users/Ian/Applications/500px.app/Contents/Frameworks/500px Helper.app/Contents/MacOS/500px Helper",
       "remote-domains": [
         "500px.com",
         "500px.org",
@@ -53,12 +53,12 @@
     },
     {
       "action": "deny",
-      "process": "\/Users\/Ian\/Applications\/500px.app\/Contents\/Frameworks\/500px Helper.app\/Contents\/MacOS\/500px Helper",
+      "process": "/Users/Ian/Applications/500px.app/Contents/Frameworks/500px Helper.app/Contents/MacOS/500px Helper",
       "remote": "any"
     },
     {
       "action": "allow",
-      "process": "\/Users\/Ian\/Applications\/Airbnb.app\/Contents\/MacOS\/Airbnb",
+      "process": "/Users/Ian/Applications/Airbnb.app/Contents/MacOS/Airbnb",
       "remote-hosts": [
         "a0.muscache.com",
         "airbnb-api.arkoselabs.com",
@@ -68,7 +68,7 @@
     },
     {
       "action": "allow",
-      "process": "\/Users\/Ian\/Applications\/Airbnb.app\/Contents\/MacOS\/Airbnb",
+      "process": "/Users/Ian/Applications/Airbnb.app/Contents/MacOS/Airbnb",
       "remote-domains": [
         "airbnb.co.uk",
         "airbnb.com",
@@ -78,12 +78,12 @@
     },
     {
       "action": "deny",
-      "process": "\/Users\/Ian\/Applications\/Airbnb.app\/Contents\/MacOS\/Airbnb",
+      "process": "/Users/Ian/Applications/Airbnb.app/Contents/MacOS/Airbnb",
       "remote": "any"
     },
     {
       "action": "allow",
-      "process": "\/Users\/Ian\/Applications\/Airbnb.app\/Contents\/Frameworks\/Airbnb Helper.app\/Contents\/MacOS\/Airbnb Helper",
+      "process": "/Users/Ian/Applications/Airbnb.app/Contents/Frameworks/Airbnb Helper.app/Contents/MacOS/Airbnb Helper",
       "remote-hosts": [
         "a0.muscache.com",
         "airbnb-api.arkoselabs.com",
@@ -93,7 +93,7 @@
     },
     {
       "action": "allow",
-      "process": "\/Users\/Ian\/Applications\/Airbnb.app\/Contents\/Frameworks\/Airbnb Helper.app\/Contents\/MacOS\/Airbnb Helper",
+      "process": "/Users/Ian/Applications/Airbnb.app/Contents/Frameworks/Airbnb Helper.app/Contents/MacOS/Airbnb Helper",
       "remote-domains": [
         "airbnb.co.uk",
         "airbnb.com",
@@ -103,12 +103,12 @@
     },
     {
       "action": "deny",
-      "process": "\/Users\/Ian\/Applications\/Airbnb.app\/Contents\/Frameworks\/Airbnb Helper.app\/Contents\/MacOS\/Airbnb Helper",
+      "process": "/Users/Ian/Applications/Airbnb.app/Contents/Frameworks/Airbnb Helper.app/Contents/MacOS/Airbnb Helper",
       "remote": "any"
     },
     {
       "action": "allow",
-      "process": "\/Users\/Ian\/Applications\/Amazon.app\/Contents\/MacOS\/Amazon",
+      "process": "/Users/Ian/Applications/Amazon.app/Contents/MacOS/Amazon",
       "remote-domains": [
         "amazon.co.uk",
         "amazon.com",
@@ -121,12 +121,12 @@
     },
     {
       "action": "deny",
-      "process": "\/Users\/Ian\/Applications\/Amazon.app\/Contents\/MacOS\/Amazon",
+      "process": "/Users/Ian/Applications/Amazon.app/Contents/MacOS/Amazon",
       "remote": "any"
     },
     {
       "action": "allow",
-      "process": "\/Users\/Ian\/Applications\/Amazon.app\/Contents\/Frameworks\/Amazon Helper.app\/Contents\/MacOS\/Amazon Helper",
+      "process": "/Users/Ian/Applications/Amazon.app/Contents/Frameworks/Amazon Helper.app/Contents/MacOS/Amazon Helper",
       "remote-domains": [
         "amazon.co.uk",
         "amazon.com",
@@ -139,12 +139,12 @@
     },
     {
       "action": "deny",
-      "process": "\/Users\/Ian\/Applications\/Amazon.app\/Contents\/Frameworks\/Amazon Helper.app\/Contents\/MacOS\/Amazon Helper",
+      "process": "/Users/Ian/Applications/Amazon.app/Contents/Frameworks/Amazon Helper.app/Contents/MacOS/Amazon Helper",
       "remote": "any"
     },
     {
       "action": "allow",
-      "process": "\/Users\/Ian\/Applications\/Ancestry.app\/Contents\/MacOS\/Ancestry",
+      "process": "/Users/Ian/Applications/Ancestry.app/Contents/MacOS/Ancestry",
       "remote-domains": [
         "ancestry.co.uk",
         "ancestry.com",
@@ -154,12 +154,12 @@
     },
     {
       "action": "deny",
-      "process": "\/Users\/Ian\/Applications\/Ancestry.app\/Contents\/MacOS\/Ancestry",
+      "process": "/Users/Ian/Applications/Ancestry.app/Contents/MacOS/Ancestry",
       "remote": "any"
     },
     {
       "action": "allow",
-      "process": "\/Users\/Ian\/Applications\/Ancestry.app\/Contents\/Frameworks\/Ancestry Helper.app\/Contents\/MacOS\/Ancestry Helper",
+      "process": "/Users/Ian/Applications/Ancestry.app/Contents/Frameworks/Ancestry Helper.app/Contents/MacOS/Ancestry Helper",
       "remote-domains": [
         "ancestry.co.uk",
         "ancestry.com",
@@ -169,12 +169,12 @@
     },
     {
       "action": "deny",
-      "process": "\/Users\/Ian\/Applications\/Ancestry.app\/Contents\/Frameworks\/Ancestry Helper.app\/Contents\/MacOS\/Ancestry Helper",
+      "process": "/Users/Ian/Applications/Ancestry.app/Contents/Frameworks/Ancestry Helper.app/Contents/MacOS/Ancestry Helper",
       "remote": "any"
     },
     {
       "action": "allow",
-      "process": "\/Users\/Ian\/Applications\/AWS.app\/Contents\/MacOS\/AWS",
+      "process": "/Users/Ian/Applications/AWS.app/Contents/MacOS/AWS",
       "remote-domains": [
         "amazon.com",
         "amazonaws.com",
@@ -188,12 +188,12 @@
     },
     {
       "action": "deny",
-      "process": "\/Users\/Ian\/Applications\/AWS.app\/Contents\/MacOS\/AWS",
+      "process": "/Users/Ian/Applications/AWS.app/Contents/MacOS/AWS",
       "remote": "any"
     },
     {
       "action": "allow",
-      "process": "\/Users\/Ian\/Applications\/AWS.app\/Contents\/Frameworks\/AWS Helper.app\/Contents\/MacOS\/AWS Helper",
+      "process": "/Users/Ian/Applications/AWS.app/Contents/Frameworks/AWS Helper.app/Contents/MacOS/AWS Helper",
       "remote-domains": [
         "amazon.com",
         "amazonaws.com",
@@ -207,12 +207,12 @@
     },
     {
       "action": "deny",
-      "process": "\/Users\/Ian\/Applications\/AWS.app\/Contents\/Frameworks\/AWS Helper.app\/Contents\/MacOS\/AWS Helper",
+      "process": "/Users/Ian/Applications/AWS.app/Contents/Frameworks/AWS Helper.app/Contents/MacOS/AWS Helper",
       "remote": "any"
     },
     {
       "action": "allow",
-      "process": "\/Users\/Ian\/Applications\/AWS Skill Builder.app\/Contents\/MacOS\/AWS Skill Builder",
+      "process": "/Users/Ian/Applications/AWS Skill Builder.app/Contents/MacOS/AWS Skill Builder",
       "remote-domains": [
         "amazon.com",
         "amazonaws.com",
@@ -228,12 +228,12 @@
     },
     {
       "action": "deny",
-      "process": "\/Users\/Ian\/Applications\/AWS Skill Builder.app\/Contents\/MacOS\/AWS Skill Builder",
+      "process": "/Users/Ian/Applications/AWS Skill Builder.app/Contents/MacOS/AWS Skill Builder",
       "remote": "any"
     },
     {
       "action": "allow",
-      "process": "\/Users\/Ian\/Applications\/AWS Skill Builder.app\/Contents\/Frameworks\/AWS Skill Builder Helper.app\/Contents\/MacOS\/AWS Skill Builder Helper",
+      "process": "/Users/Ian/Applications/AWS Skill Builder.app/Contents/Frameworks/AWS Skill Builder Helper.app/Contents/MacOS/AWS Skill Builder Helper",
       "remote-domains": [
         "amazon.com",
         "amazonaws.com",
@@ -249,12 +249,12 @@
     },
     {
       "action": "deny",
-      "process": "\/Users\/Ian\/Applications\/AWS Skill Builder.app\/Contents\/Frameworks\/AWS Skill Builder Helper.app\/Contents\/MacOS\/AWS Skill Builder Helper",
+      "process": "/Users/Ian/Applications/AWS Skill Builder.app/Contents/Frameworks/AWS Skill Builder Helper.app/Contents/MacOS/AWS Skill Builder Helper",
       "remote": "any"
     },
     {
       "action": "allow",
-      "process": "\/Users\/Ian\/Applications\/Azure.app\/Contents\/MacOS\/Azure",
+      "process": "/Users/Ian/Applications/Azure.app/Contents/MacOS/Azure",
       "remote-domains": [
         "azure.com",
         "azure.net",
@@ -268,12 +268,12 @@
     },
     {
       "action": "deny",
-      "process": "\/Users\/Ian\/Applications\/Azure.app\/Contents\/MacOS\/Azure",
+      "process": "/Users/Ian/Applications/Azure.app/Contents/MacOS/Azure",
       "remote": "any"
     },
     {
       "action": "allow",
-      "process": "\/Users\/Ian\/Applications\/Azure.app\/Contents\/Frameworks\/Azure Helper.app\/Contents\/MacOS\/Azure Helper",
+      "process": "/Users/Ian/Applications/Azure.app/Contents/Frameworks/Azure Helper.app/Contents/MacOS/Azure Helper",
       "remote-domains": [
         "azure.com",
         "azure.net",
@@ -287,12 +287,12 @@
     },
     {
       "action": "deny",
-      "process": "\/Users\/Ian\/Applications\/Azure.app\/Contents\/Frameworks\/Azure Helper.app\/Contents\/MacOS\/Azure Helper",
+      "process": "/Users/Ian/Applications/Azure.app/Contents/Frameworks/Azure Helper.app/Contents/MacOS/Azure Helper",
       "remote": "any"
     },
     {
       "action": "allow",
-      "process": "\/Users\/Ian\/Applications\/Azure Lab Services.app\/Contents\/MacOS\/Azure Lab Services",
+      "process": "/Users/Ian/Applications/Azure Lab Services.app/Contents/MacOS/Azure Lab Services",
       "remote-domains": [
         "azure.com",
         "azureedge.net",
@@ -309,12 +309,12 @@
     },
     {
       "action": "deny",
-      "process": "\/Users\/Ian\/Applications\/Azure Lab Services.app\/Contents\/MacOS\/Azure Lab Services",
+      "process": "/Users/Ian/Applications/Azure Lab Services.app/Contents/MacOS/Azure Lab Services",
       "remote": "any"
     },
     {
       "action": "allow",
-      "process": "\/Users\/Ian\/Applications\/Azure Lab Services.app\/Contents\/Frameworks\/Azure Lab Services Helper.app\/Contents\/MacOS\/Azure Lab Services Helper",
+      "process": "/Users/Ian/Applications/Azure Lab Services.app/Contents/Frameworks/Azure Lab Services Helper.app/Contents/MacOS/Azure Lab Services Helper",
       "remote-domains": [
         "azure.com",
         "azureedge.net",
@@ -331,12 +331,12 @@
     },
     {
       "action": "deny",
-      "process": "\/Users\/Ian\/Applications\/Azure Lab Services.app\/Contents\/Frameworks\/Azure Lab Services Helper.app\/Contents\/MacOS\/Azure Lab Services Helper",
+      "process": "/Users/Ian/Applications/Azure Lab Services.app/Contents/Frameworks/Azure Lab Services Helper.app/Contents/MacOS/Azure Lab Services Helper",
       "remote": "any"
     },
     {
       "action": "allow",
-      "process": "\/Users\/Ian\/Applications\/ChatGPT.app\/Contents\/MacOS\/ChatGPT",
+      "process": "/Users/Ian/Applications/ChatGPT.app/Contents/MacOS/ChatGPT",
       "remote-domains": [
         "auth0.com",
         "cloudflare.com",
@@ -346,12 +346,12 @@
     },
     {
       "action": "deny",
-      "process": "\/Users\/Ian\/Applications\/ChatGPT.app\/Contents\/MacOS\/ChatGPT",
+      "process": "/Users/Ian/Applications/ChatGPT.app/Contents/MacOS/ChatGPT",
       "remote": "any"
     },
     {
       "action": "allow",
-      "process": "\/Users\/Ian\/Applications\/ChatGPT.app\/Contents\/Frameworks\/ChatGPT Helper.app\/Contents\/MacOS\/ChatGPT Helper",
+      "process": "/Users/Ian/Applications/ChatGPT.app/Contents/Frameworks/ChatGPT Helper.app/Contents/MacOS/ChatGPT Helper",
       "remote-domains": [
         "auth0.com",
         "cloudflare.com",
@@ -361,17 +361,17 @@
     },
     {
       "action": "deny",
-      "process": "\/Users\/Ian\/Applications\/ChatGPT.app\/Contents\/Frameworks\/ChatGPT Helper.app\/Contents\/MacOS\/ChatGPT Helper",
+      "process": "/Users/Ian/Applications/ChatGPT.app/Contents/Frameworks/ChatGPT Helper.app/Contents/MacOS/ChatGPT Helper",
       "remote": "any"
     },
     {
       "action": "allow",
-      "process": "\/Users\/Ian\/Applications\/ESV Bible.app\/Contents\/MacOS\/ESV Bible",
+      "process": "/Users/Ian/Applications/ESV Bible.app/Contents/MacOS/ESV Bible",
       "remote-hosts": "cloud.typography.com"
     },
     {
       "action": "allow",
-      "process": "\/Users\/Ian\/Applications\/ESV Bible.app\/Contents\/MacOS\/ESV Bible",
+      "process": "/Users/Ian/Applications/ESV Bible.app/Contents/MacOS/ESV Bible",
       "remote-domains": [
         "cloudfront.net",
         "crossway.org",
@@ -381,17 +381,17 @@
     },
     {
       "action": "deny",
-      "process": "\/Users\/Ian\/Applications\/ESV Bible.app\/Contents\/MacOS\/ESV Bible",
+      "process": "/Users/Ian/Applications/ESV Bible.app/Contents/MacOS/ESV Bible",
       "remote": "any"
     },
     {
       "action": "allow",
-      "process": "\/Users\/Ian\/Applications\/ESV Bible.app\/Contents\/Frameworks\/ESV Bible Helper.app\/Contents\/MacOS\/ESV Bible Helper",
+      "process": "/Users/Ian/Applications/ESV Bible.app/Contents/Frameworks/ESV Bible Helper.app/Contents/MacOS/ESV Bible Helper",
       "remote-hosts": "cloud.typography.com"
     },
     {
       "action": "allow",
-      "process": "\/Users\/Ian\/Applications\/ESV Bible.app\/Contents\/Frameworks\/ESV Bible Helper.app\/Contents\/MacOS\/ESV Bible Helper",
+      "process": "/Users/Ian/Applications/ESV Bible.app/Contents/Frameworks/ESV Bible Helper.app/Contents/MacOS/ESV Bible Helper",
       "remote-domains": [
         "cloudfront.net",
         "crossway.org",
@@ -401,12 +401,12 @@
     },
     {
       "action": "deny",
-      "process": "\/Users\/Ian\/Applications\/ESV Bible.app\/Contents\/Frameworks\/ESV Bible Helper.app\/Contents\/MacOS\/ESV Bible Helper",
+      "process": "/Users/Ian/Applications/ESV Bible.app/Contents/Frameworks/ESV Bible Helper.app/Contents/MacOS/ESV Bible Helper",
       "remote": "any"
     },
     {
       "action": "allow",
-      "process": "\/Users\/Ian\/Applications\/Excalidraw.app\/Contents\/MacOS\/Excalidraw",
+      "process": "/Users/Ian/Applications/Excalidraw.app/Contents/MacOS/Excalidraw",
       "remote-domains": [
         "digitaloceanspaces.com",
         "excalidraw.com",
@@ -417,12 +417,12 @@
     },
     {
       "action": "deny",
-      "process": "\/Users\/Ian\/Applications\/Excalidraw.app\/Contents\/MacOS\/Excalidraw",
+      "process": "/Users/Ian/Applications/Excalidraw.app/Contents/MacOS/Excalidraw",
       "remote": "any"
     },
     {
       "action": "allow",
-      "process": "\/Users\/Ian\/Applications\/Excalidraw.app\/Contents\/Frameworks\/Excalidraw Helper.app\/Contents\/MacOS\/Excalidraw Helper",
+      "process": "/Users/Ian/Applications/Excalidraw.app/Contents/Frameworks/Excalidraw Helper.app/Contents/MacOS/Excalidraw Helper",
       "remote-domains": [
         "digitaloceanspaces.com",
         "excalidraw.com",
@@ -433,12 +433,12 @@
     },
     {
       "action": "deny",
-      "process": "\/Users\/Ian\/Applications\/Excalidraw.app\/Contents\/Frameworks\/Excalidraw Helper.app\/Contents\/MacOS\/Excalidraw Helper",
+      "process": "/Users/Ian/Applications/Excalidraw.app/Contents/Frameworks/Excalidraw Helper.app/Contents/MacOS/Excalidraw Helper",
       "remote": "any"
     },
     {
       "action": "allow",
-      "process": "\/Users\/Ian\/Applications\/FreeAgent.app\/Contents\/MacOS\/FreeAgent",
+      "process": "/Users/Ian/Applications/FreeAgent.app/Contents/MacOS/FreeAgent",
       "remote-domains": [
         "freeagent.com",
         "webcatalog.io"
@@ -446,12 +446,12 @@
     },
     {
       "action": "deny",
-      "process": "\/Users\/Ian\/Applications\/FreeAgent.app\/Contents\/MacOS\/FreeAgent",
+      "process": "/Users/Ian/Applications/FreeAgent.app/Contents/MacOS/FreeAgent",
       "remote": "any"
     },
     {
       "action": "allow",
-      "process": "\/Users\/Ian\/Applications\/FreeAgent.app\/Contents\/Frameworks\/FreeAgent Helper.app\/Contents\/MacOS\/FreeAgent Helper",
+      "process": "/Users/Ian/Applications/FreeAgent.app/Contents/Frameworks/FreeAgent Helper.app/Contents/MacOS/FreeAgent Helper",
       "remote-domains": [
         "freeagent.com",
         "webcatalog.io"
@@ -459,12 +459,12 @@
     },
     {
       "action": "deny",
-      "process": "\/Users\/Ian\/Applications\/FreeAgent.app\/Contents\/Frameworks\/FreeAgent Helper.app\/Contents\/MacOS\/FreeAgent Helper",
+      "process": "/Users/Ian/Applications/FreeAgent.app/Contents/Frameworks/FreeAgent Helper.app/Contents/MacOS/FreeAgent Helper",
       "remote": "any"
     },
     {
       "action": "allow",
-      "process": "\/Users\/Ian\/Applications\/GitHub.app\/Contents\/MacOS\/GitHub",
+      "process": "/Users/Ian/Applications/GitHub.app/Contents/MacOS/GitHub",
       "remote-domains": [
         "github.com",
         "githubassets.com",
@@ -474,12 +474,12 @@
     },
     {
       "action": "deny",
-      "process": "\/Users\/Ian\/Applications\/GitHub.app\/Contents\/MacOS\/GitHub",
+      "process": "/Users/Ian/Applications/GitHub.app/Contents/MacOS/GitHub",
       "remote": "any"
     },
     {
       "action": "allow",
-      "process": "\/Users\/Ian\/Applications\/GitHub.app\/Contents\/Frameworks\/GitHub Helper.app\/Contents\/MacOS\/GitHub Helper",
+      "process": "/Users/Ian/Applications/GitHub.app/Contents/Frameworks/GitHub Helper.app/Contents/MacOS/GitHub Helper",
       "remote-domains": [
         "github.com",
         "githubassets.com",
@@ -489,42 +489,42 @@
     },
     {
       "action": "deny",
-      "process": "\/Users\/Ian\/Applications\/GitHub.app\/Contents\/Frameworks\/GitHub Helper.app\/Contents\/MacOS\/GitHub Helper",
+      "process": "/Users/Ian/Applications/GitHub.app/Contents/Frameworks/GitHub Helper.app/Contents/MacOS/GitHub Helper",
       "remote": "any"
     },
     {
       "action": "allow",
-      "process": "\/Users\/Ian\/Applications\/Home Assistant.app\/Contents\/MacOS\/Home Assistant",
+      "process": "/Users/Ian/Applications/Home Assistant.app/Contents/MacOS/Home Assistant",
       "remote-domains": "webcatalog.io"
     },
     {
       "action": "allow",
-      "process": "\/Users\/Ian\/Applications\/Home Assistant.app\/Contents\/MacOS\/Home Assistant",
+      "process": "/Users/Ian/Applications/Home Assistant.app/Contents/MacOS/Home Assistant",
       "remote": "local-net"
     },
     {
       "action": "deny",
-      "process": "\/Users\/Ian\/Applications\/Home Assistant.app\/Contents\/MacOS\/Home Assistant",
+      "process": "/Users/Ian/Applications/Home Assistant.app/Contents/MacOS/Home Assistant",
       "remote": "any"
     },
     {
       "action": "allow",
-      "process": "\/Users\/Ian\/Applications\/Home Assistant.app\/Contents\/Frameworks\/Home Assistant Helper.app\/Contents\/MacOS\/Home Assistant Helper",
+      "process": "/Users/Ian/Applications/Home Assistant.app/Contents/Frameworks/Home Assistant Helper.app/Contents/MacOS/Home Assistant Helper",
       "remote-domains": "webcatalog.io"
     },
     {
       "action": "allow",
-      "process": "\/Users\/Ian\/Applications\/Home Assistant.app\/Contents\/Frameworks\/Home Assistant Helper.app\/Contents\/MacOS\/Home Assistant Helper",
+      "process": "/Users/Ian/Applications/Home Assistant.app/Contents/Frameworks/Home Assistant Helper.app/Contents/MacOS/Home Assistant Helper",
       "remote": "local-net"
     },
     {
       "action": "deny",
-      "process": "\/Users\/Ian\/Applications\/Home Assistant.app\/Contents\/Frameworks\/Home Assistant Helper.app\/Contents\/MacOS\/Home Assistant Helper",
+      "process": "/Users/Ian/Applications/Home Assistant.app/Contents/Frameworks/Home Assistant Helper.app/Contents/MacOS/Home Assistant Helper",
       "remote": "any"
     },
     {
       "action": "allow",
-      "process": "\/Users\/Ian\/Applications\/Instagram.app\/Contents\/MacOS\/Instagram",
+      "process": "/Users/Ian/Applications/Instagram.app/Contents/MacOS/Instagram",
       "remote-domains": [
         "cdninstagram.com",
         "facebook.com",
@@ -536,12 +536,12 @@
     },
     {
       "action": "deny",
-      "process": "\/Users\/Ian\/Applications\/Instagram.app\/Contents\/MacOS\/Instagram",
+      "process": "/Users/Ian/Applications/Instagram.app/Contents/MacOS/Instagram",
       "remote": "any"
     },
     {
       "action": "allow",
-      "process": "\/Users\/Ian\/Applications\/Instagram.app\/Contents\/Frameworks\/Instagram Helper.app\/Contents\/MacOS\/Instagram Helper",
+      "process": "/Users/Ian/Applications/Instagram.app/Contents/Frameworks/Instagram Helper.app/Contents/MacOS/Instagram Helper",
       "remote-domains": [
         "cdninstagram.com",
         "facebook.com",
@@ -553,12 +553,12 @@
     },
     {
       "action": "deny",
-      "process": "\/Users\/Ian\/Applications\/Instagram.app\/Contents\/Frameworks\/Instagram Helper.app\/Contents\/MacOS\/Instagram Helper",
+      "process": "/Users/Ian/Applications/Instagram.app/Contents/Frameworks/Instagram Helper.app/Contents/MacOS/Instagram Helper",
       "remote": "any"
     },
     {
       "action": "allow",
-      "process": "\/Users\/Ian\/Applications\/LinkedIn.app\/Contents\/MacOS\/LinkedIn",
+      "process": "/Users/Ian/Applications/LinkedIn.app/Contents/MacOS/LinkedIn",
       "remote-domains": [
         "licdn.com",
         "linkedin.com",
@@ -567,12 +567,12 @@
     },
     {
       "action": "deny",
-      "process": "\/Users\/Ian\/Applications\/LinkedIn.app\/Contents\/MacOS\/LinkedIn",
+      "process": "/Users/Ian/Applications/LinkedIn.app/Contents/MacOS/LinkedIn",
       "remote": "any"
     },
     {
       "action": "allow",
-      "process": "\/Users\/Ian\/Applications\/LinkedIn.app\/Contents\/Frameworks\/LinkedIn Helper.app\/Contents\/MacOS\/LinkedIn Helper",
+      "process": "/Users/Ian/Applications/LinkedIn.app/Contents/Frameworks/LinkedIn Helper.app/Contents/MacOS/LinkedIn Helper",
       "remote-domains": [
         "licdn.com",
         "linkedin.com",
@@ -581,17 +581,17 @@
     },
     {
       "action": "deny",
-      "process": "\/Users\/Ian\/Applications\/LinkedIn.app\/Contents\/Frameworks\/LinkedIn Helper.app\/Contents\/MacOS\/LinkedIn Helper",
+      "process": "/Users/Ian/Applications/LinkedIn.app/Contents/Frameworks/LinkedIn Helper.app/Contents/MacOS/LinkedIn Helper",
       "remote": "any"
     },
     {
       "action": "allow",
-      "process": "\/Users\/Ian\/Applications\/liveBooks.app\/Contents\/MacOS\/liveBooks",
+      "process": "/Users/Ian/Applications/liveBooks.app/Contents/MacOS/liveBooks",
       "remote-hosts": "fonts.gstatic.com"
     },
     {
       "action": "allow",
-      "process": "\/Users\/Ian\/Applications\/liveBooks.app\/Contents\/MacOS\/liveBooks",
+      "process": "/Users/Ian/Applications/liveBooks.app/Contents/MacOS/liveBooks",
       "remote-domains": [
         "amazonaws.com",
         "cloudfront.net",
@@ -601,17 +601,17 @@
     },
     {
       "action": "deny",
-      "process": "\/Users\/Ian\/Applications\/liveBooks.app\/Contents\/MacOS\/liveBooks",
+      "process": "/Users/Ian/Applications/liveBooks.app/Contents/MacOS/liveBooks",
       "remote": "any"
     },
     {
       "action": "allow",
-      "process": "\/Users\/Ian\/Applications\/liveBooks.app\/Contents\/Frameworks\/liveBooks Helper.app\/Contents\/MacOS\/liveBooks Helper",
+      "process": "/Users/Ian/Applications/liveBooks.app/Contents/Frameworks/liveBooks Helper.app/Contents/MacOS/liveBooks Helper",
       "remote-hosts": "fonts.gstatic.com"
     },
     {
       "action": "allow",
-      "process": "\/Users\/Ian\/Applications\/liveBooks.app\/Contents\/Frameworks\/liveBooks Helper.app\/Contents\/MacOS\/liveBooks Helper",
+      "process": "/Users/Ian/Applications/liveBooks.app/Contents/Frameworks/liveBooks Helper.app/Contents/MacOS/liveBooks Helper",
       "remote-domains": [
         "amazonaws.com",
         "cloudfront.net",
@@ -621,12 +621,12 @@
     },
     {
       "action": "deny",
-      "process": "\/Users\/Ian\/Applications\/liveBooks.app\/Contents\/Frameworks\/liveBooks Helper.app\/Contents\/MacOS\/liveBooks Helper",
+      "process": "/Users/Ian/Applications/liveBooks.app/Contents/Frameworks/liveBooks Helper.app/Contents/MacOS/liveBooks Helper",
       "remote": "any"
     },
     {
       "action": "allow",
-      "process": "\/Users\/Ian\/Applications\/Logos.app\/Contents\/MacOS\/Logos",
+      "process": "/Users/Ian/Applications/Logos.app/Contents/MacOS/Logos",
       "remote-hosts": [
         "cloud.typography.com",
         "fonts.googleapis.com",
@@ -635,7 +635,7 @@
     },
     {
       "action": "allow",
-      "process": "\/Users\/Ian\/Applications\/Logos.app\/Contents\/MacOS\/Logos",
+      "process": "/Users/Ian/Applications/Logos.app/Contents/MacOS/Logos",
       "remote-domains": [
         "faithlife.com",
         "logos.com",
@@ -645,12 +645,12 @@
     },
     {
       "action": "deny",
-      "process": "\/Users\/Ian\/Applications\/Logos.app\/Contents\/MacOS\/Logos",
+      "process": "/Users/Ian/Applications/Logos.app/Contents/MacOS/Logos",
       "remote": "any"
     },
     {
       "action": "allow",
-      "process": "\/Users\/Ian\/Applications\/Logos.app\/Contents\/Frameworks\/Logos Helper.app\/Contents\/MacOS\/Logos Helper",
+      "process": "/Users/Ian/Applications/Logos.app/Contents/Frameworks/Logos Helper.app/Contents/MacOS/Logos Helper",
       "remote-hosts": [
         "cloud.typography.com",
         "fonts.googleapis.com",
@@ -659,7 +659,7 @@
     },
     {
       "action": "allow",
-      "process": "\/Users\/Ian\/Applications\/Logos.app\/Contents\/Frameworks\/Logos Helper.app\/Contents\/MacOS\/Logos Helper",
+      "process": "/Users/Ian/Applications/Logos.app/Contents/Frameworks/Logos Helper.app/Contents/MacOS/Logos Helper",
       "remote-domains": [
         "faithlife.com",
         "logos.com",
@@ -669,12 +669,12 @@
     },
     {
       "action": "deny",
-      "process": "\/Users\/Ian\/Applications\/Logos.app\/Contents\/Frameworks\/Logos Helper.app\/Contents\/MacOS\/Logos Helper",
+      "process": "/Users/Ian/Applications/Logos.app/Contents/Frameworks/Logos Helper.app/Contents/MacOS/Logos Helper",
       "remote": "any"
     },
     {
       "action": "allow",
-      "process": "\/Users\/Ian\/Applications\/Matter.app\/Contents\/MacOS\/Matter",
+      "process": "/Users/Ian/Applications/Matter.app/Contents/MacOS/Matter",
       "remote-domains": [
         "getmatter.app",
         "getmatter.com",
@@ -683,12 +683,12 @@
     },
     {
       "action": "deny",
-      "process": "\/Users\/Ian\/Applications\/Matter.app\/Contents\/MacOS\/Matter",
+      "process": "/Users/Ian/Applications/Matter.app/Contents/MacOS/Matter",
       "remote": "any"
     },
     {
       "action": "allow",
-      "process": "\/Users\/Ian\/Applications\/Matter.app\/Contents\/Frameworks\/Matter Helper.app\/Contents\/MacOS\/Matter Helper",
+      "process": "/Users/Ian/Applications/Matter.app/Contents/Frameworks/Matter Helper.app/Contents/MacOS/Matter Helper",
       "remote-domains": [
         "getmatter.app",
         "getmatter.com",
@@ -697,12 +697,12 @@
     },
     {
       "action": "deny",
-      "process": "\/Users\/Ian\/Applications\/Matter.app\/Contents\/Frameworks\/Matter Helper.app\/Contents\/MacOS\/Matter Helper",
+      "process": "/Users/Ian/Applications/Matter.app/Contents/Frameworks/Matter Helper.app/Contents/MacOS/Matter Helper",
       "remote": "any"
     },
     {
       "action": "allow",
-      "process": "\/Users\/Ian\/Applications\/Plex.app\/Contents\/MacOS\/Plex",
+      "process": "/Users/Ian/Applications/Plex.app/Contents/MacOS/Plex",
       "remote-domains": [
         "plex.tv",
         "plexvideos.com",
@@ -711,17 +711,17 @@
     },
     {
       "action": "allow",
-      "process": "\/Users\/Ian\/Applications\/Plex.app\/Contents\/MacOS\/Plex",
+      "process": "/Users/Ian/Applications/Plex.app/Contents/MacOS/Plex",
       "remote": "local-net"
     },
     {
       "action": "deny",
-      "process": "\/Users\/Ian\/Applications\/Plex.app\/Contents\/MacOS\/Plex",
+      "process": "/Users/Ian/Applications/Plex.app/Contents/MacOS/Plex",
       "remote": "any"
     },
     {
       "action": "allow",
-      "process": "\/Users\/Ian\/Applications\/Plex.app\/Contents\/Frameworks\/Plex Helper.app\/Contents\/MacOS\/Plex Helper",
+      "process": "/Users/Ian/Applications/Plex.app/Contents/Frameworks/Plex Helper.app/Contents/MacOS/Plex Helper",
       "remote-domains": [
         "plex.tv",
         "plexvideos.com",
@@ -730,17 +730,17 @@
     },
     {
       "action": "allow",
-      "process": "\/Users\/Ian\/Applications\/Plex.app\/Contents\/Frameworks\/Plex Helper.app\/Contents\/MacOS\/Plex Helper",
+      "process": "/Users/Ian/Applications/Plex.app/Contents/Frameworks/Plex Helper.app/Contents/MacOS/Plex Helper",
       "remote": "local-net"
     },
     {
       "action": "deny",
-      "process": "\/Users\/Ian\/Applications\/Plex.app\/Contents\/Frameworks\/Plex Helper.app\/Contents\/MacOS\/Plex Helper",
+      "process": "/Users/Ian/Applications/Plex.app/Contents/Frameworks/Plex Helper.app/Contents/MacOS/Plex Helper",
       "remote": "any"
     },
     {
       "action": "allow",
-      "process": "\/Users\/Ian\/Applications\/Rightmove.app\/Contents\/MacOS\/Rightmove",
+      "process": "/Users/Ian/Applications/Rightmove.app/Contents/MacOS/Rightmove",
       "remote-hosts": [
         "code.jquery.com",
         "fonts.googleapis.com",
@@ -751,7 +751,7 @@
     },
     {
       "action": "allow",
-      "process": "\/Users\/Ian\/Applications\/Rightmove.app\/Contents\/MacOS\/Rightmove",
+      "process": "/Users/Ian/Applications/Rightmove.app/Contents/MacOS/Rightmove",
       "remote-domains": [
         "arkoselabs.com",
         "rightmove.co.uk",
@@ -760,12 +760,12 @@
     },
     {
       "action": "deny",
-      "process": "\/Users\/Ian\/Applications\/Rightmove.app\/Contents\/MacOS\/Rightmove",
+      "process": "/Users/Ian/Applications/Rightmove.app/Contents/MacOS/Rightmove",
       "remote": "any"
     },
     {
       "action": "allow",
-      "process": "\/Users\/Ian\/Applications\/Rightmove.app\/Contents\/Frameworks\/Rightmove Helper.app\/Contents\/MacOS\/Rightmove Helper",
+      "process": "/Users/Ian/Applications/Rightmove.app/Contents/Frameworks/Rightmove Helper.app/Contents/MacOS/Rightmove Helper",
       "remote-hosts": [
         "code.jquery.com",
         "fonts.googleapis.com",
@@ -776,7 +776,7 @@
     },
     {
       "action": "allow",
-      "process": "\/Users\/Ian\/Applications\/Rightmove.app\/Contents\/Frameworks\/Rightmove Helper.app\/Contents\/MacOS\/Rightmove Helper",
+      "process": "/Users/Ian/Applications/Rightmove.app/Contents/Frameworks/Rightmove Helper.app/Contents/MacOS/Rightmove Helper",
       "remote-domains": [
         "arkoselabs.com",
         "rightmove.co.uk",
@@ -785,12 +785,12 @@
     },
     {
       "action": "deny",
-      "process": "\/Users\/Ian\/Applications\/Rightmove.app\/Contents\/Frameworks\/Rightmove Helper.app\/Contents\/MacOS\/Rightmove Helper",
+      "process": "/Users/Ian/Applications/Rightmove.app/Contents/Frameworks/Rightmove Helper.app/Contents/MacOS/Rightmove Helper",
       "remote": "any"
     },
     {
       "action": "allow",
-      "process": "\/Users\/Ian\/Applications\/Slides.app\/Contents\/MacOS\/Slides",
+      "process": "/Users/Ian/Applications/Slides.app/Contents/MacOS/Slides",
       "remote-hosts": [
         "fonts.googleapis.com",
         "fonts.gstatic.com"
@@ -798,7 +798,7 @@
     },
     {
       "action": "allow",
-      "process": "\/Users\/Ian\/Applications\/Slides.app\/Contents\/MacOS\/Slides",
+      "process": "/Users/Ian/Applications/Slides.app/Contents/MacOS/Slides",
       "remote-domains": [
         "gravatar.com",
         "s3.amazonaws.com",
@@ -809,12 +809,12 @@
     },
     {
       "action": "deny",
-      "process": "\/Users\/Ian\/Applications\/Slides.app\/Contents\/MacOS\/Slides",
+      "process": "/Users/Ian/Applications/Slides.app/Contents/MacOS/Slides",
       "remote": "any"
     },
     {
       "action": "allow",
-      "process": "\/Users\/Ian\/Applications\/Slides.app\/Contents\/Frameworks\/Slides Helper.app\/Contents\/MacOS\/Slides Helper",
+      "process": "/Users/Ian/Applications/Slides.app/Contents/Frameworks/Slides Helper.app/Contents/MacOS/Slides Helper",
       "remote-hosts": [
         "fonts.googleapis.com",
         "fonts.gstatic.com"
@@ -822,7 +822,7 @@
     },
     {
       "action": "allow",
-      "process": "\/Users\/Ian\/Applications\/Slides.app\/Contents\/Frameworks\/Slides Helper.app\/Contents\/MacOS\/Slides Helper",
+      "process": "/Users/Ian/Applications/Slides.app/Contents/Frameworks/Slides Helper.app/Contents/MacOS/Slides Helper",
       "remote-domains": [
         "gravatar.com",
         "s3.amazonaws.com",
@@ -833,52 +833,52 @@
     },
     {
       "action": "deny",
-      "process": "\/Users\/Ian\/Applications\/Slides.app\/Contents\/Frameworks\/Slides Helper.app\/Contents\/MacOS\/Slides Helper",
+      "process": "/Users/Ian/Applications/Slides.app/Contents/Frameworks/Slides Helper.app/Contents/MacOS/Slides Helper",
       "remote": "any"
     },
     {
       "action": "allow",
-      "process": "\/Users\/Ian\/Applications\/Synology NAS.app\/Contents\/MacOS\/Synology NAS",
+      "process": "/Users/Ian/Applications/Synology NAS.app/Contents/MacOS/Synology NAS",
       "remote-domains": "webcatalog.io"
     },
     {
       "action": "allow",
-      "process": "\/Users\/Ian\/Applications\/Synology NAS.app\/Contents\/MacOS\/Synology NAS",
+      "process": "/Users/Ian/Applications/Synology NAS.app/Contents/MacOS/Synology NAS",
       "remote": "local-net"
     },
     {
       "action": "deny",
-      "process": "\/Users\/Ian\/Applications\/Synology NAS.app\/Contents\/MacOS\/Synology NAS",
+      "process": "/Users/Ian/Applications/Synology NAS.app/Contents/MacOS/Synology NAS",
       "remote": "any"
     },
     {
       "action": "allow",
-      "process": "\/Users\/Ian\/Applications\/Synology NAS.app\/Contents\/Frameworks\/Synology NAS Helper.app\/Contents\/MacOS\/Synology NAS Helper",
+      "process": "/Users/Ian/Applications/Synology NAS.app/Contents/Frameworks/Synology NAS Helper.app/Contents/MacOS/Synology NAS Helper",
       "remote-domains": "webcatalog.io"
     },
     {
       "action": "allow",
-      "process": "\/Users\/Ian\/Applications\/Synology NAS.app\/Contents\/Frameworks\/Synology NAS Helper.app\/Contents\/MacOS\/Synology NAS Helper",
+      "process": "/Users/Ian/Applications/Synology NAS.app/Contents/Frameworks/Synology NAS Helper.app/Contents/MacOS/Synology NAS Helper",
       "remote": "local-net"
     },
     {
       "action": "deny",
-      "process": "\/Users\/Ian\/Applications\/Synology NAS.app\/Contents\/Frameworks\/Synology NAS Helper.app\/Contents\/MacOS\/Synology NAS Helper",
+      "process": "/Users/Ian/Applications/Synology NAS.app/Contents/Frameworks/Synology NAS Helper.app/Contents/MacOS/Synology NAS Helper",
       "remote": "any"
     },
     {
       "action": "deny",
-      "process": "\/Users\/Ian\/Applications\/TV Guide.app\/Contents\/MacOS\/TV Guide",
+      "process": "/Users/Ian/Applications/TV Guide.app/Contents/MacOS/TV Guide",
       "remote-hosts": "ads.thetimes.co.uk"
     },
     {
       "action": "allow",
-      "process": "\/Users\/Ian\/Applications\/TV Guide.app\/Contents\/MacOS\/TV Guide",
+      "process": "/Users/Ian/Applications/TV Guide.app/Contents/MacOS/TV Guide",
       "remote-hosts": "fonts.googleapis.com"
     },
     {
       "action": "allow",
-      "process": "\/Users\/Ian\/Applications\/TV Guide.app\/Contents\/MacOS\/TV Guide",
+      "process": "/Users/Ian/Applications/TV Guide.app/Contents/MacOS/TV Guide",
       "remote-domains": [
         "0x69416d.co.uk",
         "amazonaws.com",
@@ -892,22 +892,22 @@
     },
     {
       "action": "deny",
-      "process": "\/Users\/Ian\/Applications\/TV Guide.app\/Contents\/MacOS\/TV Guide",
+      "process": "/Users/Ian/Applications/TV Guide.app/Contents/MacOS/TV Guide",
       "remote": "any"
     },
     {
       "action": "deny",
-      "process": "\/Users\/Ian\/Applications\/TV Guide.app\/Contents\/Frameworks\/TV Guide Helper.app\/Contents\/MacOS\/TV Guide Helper",
+      "process": "/Users/Ian/Applications/TV Guide.app/Contents/Frameworks/TV Guide Helper.app/Contents/MacOS/TV Guide Helper",
       "remote-hosts": "ads.thetimes.co.uk"
     },
     {
       "action": "allow",
-      "process": "\/Users\/Ian\/Applications\/TV Guide.app\/Contents\/Frameworks\/TV Guide Helper.app\/Contents\/MacOS\/TV Guide Helper",
+      "process": "/Users/Ian/Applications/TV Guide.app/Contents/Frameworks/TV Guide Helper.app/Contents/MacOS/TV Guide Helper",
       "remote-hosts": "fonts.googleapis.com"
     },
     {
       "action": "allow",
-      "process": "\/Users\/Ian\/Applications\/TV Guide.app\/Contents\/Frameworks\/TV Guide Helper.app\/Contents\/MacOS\/TV Guide Helper",
+      "process": "/Users/Ian/Applications/TV Guide.app/Contents/Frameworks/TV Guide Helper.app/Contents/MacOS/TV Guide Helper",
       "remote-domains": [
         "0x69416d.co.uk",
         "amazonaws.com",
@@ -921,12 +921,12 @@
     },
     {
       "action": "deny",
-      "process": "\/Users\/Ian\/Applications\/TV Guide.app\/Contents\/Frameworks\/TV Guide Helper.app\/Contents\/MacOS\/TV Guide Helper",
+      "process": "/Users/Ian/Applications/TV Guide.app/Contents/Frameworks/TV Guide Helper.app/Contents/MacOS/TV Guide Helper",
       "remote": "any"
     },
     {
       "action": "allow",
-      "process": "\/Users\/Ian\/Applications\/Udemy.app\/Contents\/MacOS\/Udemy",
+      "process": "/Users/Ian/Applications/Udemy.app/Contents/MacOS/Udemy",
       "remote-domains": [
         "udemy.com",
         "udemycdn.com",
@@ -935,12 +935,12 @@
     },
     {
       "action": "deny",
-      "process": "\/Users\/Ian\/Applications\/Udemy.app\/Contents\/MacOS\/Udemy",
+      "process": "/Users/Ian/Applications/Udemy.app/Contents/MacOS/Udemy",
       "remote": "any"
     },
     {
       "action": "allow",
-      "process": "\/Users\/Ian\/Applications\/Udemy.app\/Contents\/Frameworks\/Udemy Helper.app\/Contents\/MacOS\/Udemy Helper",
+      "process": "/Users/Ian/Applications/Udemy.app/Contents/Frameworks/Udemy Helper.app/Contents/MacOS/Udemy Helper",
       "remote-domains": [
         "udemy.com",
         "udemycdn.com",
@@ -949,37 +949,87 @@
     },
     {
       "action": "deny",
-      "process": "\/Users\/Ian\/Applications\/Udemy.app\/Contents\/Frameworks\/Udemy Helper.app\/Contents\/MacOS\/Udemy Helper",
+      "process": "/Users/Ian/Applications/Udemy.app/Contents/Frameworks/Udemy Helper.app/Contents/MacOS/Udemy Helper",
       "remote": "any"
     },
     {
       "action": "allow",
-      "process": "\/Users\/Ian\/Applications\/UniFi Controller.app\/Contents\/MacOS\/UniFi Controller",
+      "process": "/Users/Ian/Applications/UniFi Controller.app/Contents/MacOS/UniFi Controller",
       "remote-domains": "webcatalog.io"
     },
     {
       "action": "allow",
-      "process": "\/Users\/Ian\/Applications\/UniFi Controller.app\/Contents\/MacOS\/UniFi Controller",
+      "process": "/Users/Ian/Applications/UniFi Controller.app/Contents/MacOS/UniFi Controller",
       "remote": "local-net"
     },
     {
       "action": "deny",
-      "process": "\/Users\/Ian\/Applications\/UniFi Controller.app\/Contents\/MacOS\/UniFi Controller",
+      "process": "/Users/Ian/Applications/UniFi Controller.app/Contents/MacOS/UniFi Controller",
       "remote": "any"
     },
     {
       "action": "allow",
-      "process": "\/Users\/Ian\/Applications\/UniFi Controller.app\/Contents\/Frameworks\/UniFi Controller Helper.app\/Contents\/MacOS\/UniFi Controller Helper",
+      "process": "/Users/Ian/Applications/UniFi Controller.app/Contents/Frameworks/UniFi Controller Helper.app/Contents/MacOS/UniFi Controller Helper",
       "remote-domains": "webcatalog.io"
     },
     {
       "action": "allow",
-      "process": "\/Users\/Ian\/Applications\/UniFi Controller.app\/Contents\/Frameworks\/UniFi Controller Helper.app\/Contents\/MacOS\/UniFi Controller Helper",
+      "process": "/Users/Ian/Applications/UniFi Controller.app/Contents/Frameworks/UniFi Controller Helper.app/Contents/MacOS/UniFi Controller Helper",
       "remote": "local-net"
     },
     {
       "action": "deny",
-      "process": "\/Users\/Ian\/Applications\/UniFi Controller.app\/Contents\/Frameworks\/UniFi Controller Helper.app\/Contents\/MacOS\/UniFi Controller Helper",
+      "process": "/Users/Ian/Applications/UniFi Controller.app/Contents/Frameworks/UniFi Controller Helper.app/Contents/MacOS/UniFi Controller Helper",
+      "remote": "any"
+    },
+    {
+      "action": "allow",
+      "process": "/Users/Ian/Applications/YouTube.app/Contents/MacOS/YouTube",
+      "remote-hosts": [
+        "accounts.google.co.uk",
+        "accounts.google.com"
+      ]
+    },
+    {
+      "action": "allow",
+      "process": "/Users/Ian/Applications/YouTube.app/Contents/MacOS/YouTube",
+      "remote-domains": [
+        "ggpht.com",
+        "googleusercontent.com",
+        "googlevideo.com",
+        "gstatic.com",
+        "youtube.com",
+        "ytimg.com"
+      ]
+    },
+    {
+      "action": "deny",
+      "process": "/Users/Ian/Applications/YouTube.app/Contents/MacOS/YouTube",
+      "remote": "any"
+    },
+    {
+      "action": "allow",
+      "process": "/Users/Ian/Applications/YouTube.app/Contents/Frameworks/YouTube Helper.app/Contents/MacOS/YouTube Helper",
+      "remote-hosts": [
+        "accounts.google.co.uk",
+        "accounts.google.com"
+      ]
+    },
+    {
+      "action": "allow",
+      "process": "/Users/Ian/Applications/YouTube.app/Contents/Frameworks/YouTube Helper.app/Contents/MacOS/YouTube Helper",
+      "remote-domains": [
+        "ggpht.com",
+        "googleusercontent.com",
+        "googlevideo.com",
+        "gstatic.com",
+        "youtube.com",
+        "ytimg.com"
+      ]
+    },
+    {
+      "action": "deny",
+      "process": "/Users/Ian/Applications/YouTube.app/Contents/Frameworks/YouTube Helper.app/Contents/MacOS/YouTube Helper",
       "remote": "any"
     }
   ]
