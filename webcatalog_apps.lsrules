@@ -330,6 +330,34 @@
       ]
     },
     {
+      "action" : "allow",
+      "process" : "\/Users\/Ian\/Applications\/BBC iPlayer.app\/Contents\/MacOS\/BBC iPlayer",
+      "remote-domains" : [
+        "bbc.co.uk",
+        "bbci.co.uk",
+        "bbc.com"
+      ]
+    },
+    {
+      "action" : "deny",
+      "process" : "\/Users\/Ian\/Applications\/BBC iPlayer.app\/Contents\/MacOS\/BBC iPlayer",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "process" : "\/Users\/Ian\/Applications\/BBC iPlayer.app\/Contents\/Frameworks\/BBC iPlayer Helper.app\/Contents\/MacOS\/BBC iPlayer Helper",
+      "remote-domains" : [
+        "bbc.co.uk",
+        "bbci.co.uk",
+        "bbc.com"
+      ]
+    },
+    {
+      "action" : "deny",
+      "process" : "\/Users\/Ian\/Applications\/BBC iPlayer.app\/Contents\/Frameworks\/BBC iPlayer Helper.app\/Contents\/MacOS\/BBC iPlayer Helper",
+      "remote" : "any"
+    },
+    {
       "action": "deny",
       "process": "/Users/Ian/Applications/Azure Lab Services.app/Contents/Frameworks/Azure Lab Services Helper.app/Contents/MacOS/Azure Lab Services Helper",
       "remote": "any"
