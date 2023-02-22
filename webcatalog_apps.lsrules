@@ -112,6 +112,7 @@
       "remote-domains": [
         "amazon.co.uk",
         "amazon.com",
+        "amazonaws.com",
         "associates-amazon.com",
         "cloudfront.net",
         "media-amazon.com",
@@ -130,6 +131,7 @@
       "remote-domains": [
         "amazon.co.uk",
         "amazon.com",
+        "amazonaws.com",
         "associates-amazon.com",
         "cloudfront.net",
         "media-amazon.com",
