@@ -7,6 +7,8 @@
       "process": "/Applications/WebCatalog.app/Contents/MacOS/WebCatalog",
       "remote-domains": [
         "elastic-cloud.com",
+        "github.com",
+        "githubusercontent.com",
         "webcatalog.io"
       ]
     },
@@ -20,6 +22,8 @@
       "process": "/Applications/WebCatalog.app/Contents/Frameworks/WebCatalog Helper.app/Contents/MacOS/WebCatalog Helper",
       "remote-domains": [
         "elastic-cloud.com",
+        "github.com",
+        "githubusercontent.com",
         "webcatalog.io"
       ]
     },
