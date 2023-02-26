@@ -364,6 +364,34 @@
       "remote" : "any"
     },
     {
+      "action" : "allow",
+      "process" : "\/Users\/Ian\/Applications\/BBC Sounds.app\/Contents\/MacOS\/BBC Sounds",
+      "remote-domains" : [
+        "bbc.co.uk",
+        "bbc.com",
+        "bbci.co.uk"
+      ]
+    },
+    {
+      "action" : "deny",
+      "process" : "\/Users\/Ian\/Applications\/BBC Sounds.app\/Contents\/MacOS\/BBC Sounds",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "process" : "\/Users\/Ian\/Applications\/BBC Sounds.app\/Contents\/Frameworks\/BBC Sounds Helper.app\/Contents\/MacOS\/BBC Sounds Helper",
+      "remote-domains" : [
+        "bbc.co.uk",
+        "bbc.com",
+        "bbci.co.uk"
+      ]
+    },
+    {
+      "action" : "deny",
+      "process" : "\/Users\/Ian\/Applications\/BBC Sounds.app\/Contents\/Frameworks\/BBC Sounds Helper.app\/Contents\/MacOS\/BBC Sounds Helper",
+      "remote" : "any"
+    },
+    {
       "action": "deny",
       "process": "/Users/Ian/Applications/Azure Lab Services.app/Contents/Frameworks/Azure Lab Services Helper.app/Contents/MacOS/Azure Lab Services Helper",
       "remote": "any"
