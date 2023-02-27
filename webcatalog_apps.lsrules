@@ -228,7 +228,8 @@
         "media-amazon.com",
         "siege-amazon.com",
         "skillbuilder.aws",
-        "ssl-images-amazon.com"
+        "ssl-images-amazon.com",
+        "webcatalog.io"
       ]
     },
     {
@@ -248,7 +249,8 @@
         "media-amazon.com",
         "siege-amazon.com",
         "skillbuilder.aws",
-        "ssl-images-amazon.com"
+        "ssl-images-amazon.com",
+        "webcatalog.io"
       ]
     },
     {
@@ -376,64 +378,68 @@
       ]
     },
     {
-      "action": "allow",
-      "process": "/Users/Ian/Applications/BBC iPlayer.app/Contents/MacOS/BBC iPlayer",
-      "remote-domains": [
-        "bbc.co.uk",
-        "bbci.co.uk",
-        "bbc.com"
-      ]
-    },
-    {
-      "action": "deny",
-      "process": "/Users/Ian/Applications/BBC iPlayer.app/Contents/MacOS/BBC iPlayer",
-      "remote": "any"
-    },
-    {
-      "action": "allow",
-      "process": "/Users/Ian/Applications/BBC iPlayer.app/Contents/Frameworks/BBC iPlayer Helper.app/Contents/MacOS/BBC iPlayer Helper",
-      "remote-domains": [
-        "bbc.co.uk",
-        "bbci.co.uk",
-        "bbc.com"
-      ]
-    },
-    {
-      "action": "deny",
-      "process": "/Users/Ian/Applications/BBC iPlayer.app/Contents/Frameworks/BBC iPlayer Helper.app/Contents/MacOS/BBC iPlayer Helper",
-      "remote": "any"
-    },
-    {
-      "action": "allow",
-      "process": "/Users/Ian/Applications/BBC Sounds.app/Contents/MacOS/BBC Sounds",
-      "remote-domains": [
-        "bbc.co.uk",
-        "bbc.com",
-        "bbci.co.uk"
-      ]
-    },
-    {
-      "action": "deny",
-      "process": "/Users/Ian/Applications/BBC Sounds.app/Contents/MacOS/BBC Sounds",
-      "remote": "any"
-    },
-    {
-      "action": "allow",
-      "process": "/Users/Ian/Applications/BBC Sounds.app/Contents/Frameworks/BBC Sounds Helper.app/Contents/MacOS/BBC Sounds Helper",
-      "remote-domains": [
-        "bbc.co.uk",
-        "bbc.com",
-        "bbci.co.uk"
-      ]
-    },
-    {
-      "action": "deny",
-      "process": "/Users/Ian/Applications/BBC Sounds.app/Contents/Frameworks/BBC Sounds Helper.app/Contents/MacOS/BBC Sounds Helper",
-      "remote": "any"
-    },
-    {
       "action": "deny",
       "process": "/Users/Ian/Applications/Azure Lab Services.app/Contents/Frameworks/Azure Lab Services Helper.app/Contents/MacOS/Azure Lab Services Helper",
+      "remote": "any"
+    },
+    {
+      "action": "allow",
+      "process": "/Users/Ian/Applications/BBC iPlayer.app/Contents/MacOS/BBC iPlayer",
+      "remote-domains": [
+        "bbc.co.uk",
+        "bbci.co.uk",
+        "bbc.com",
+        "webcatalog.io"
+      ]
+    },
+    {
+      "action": "deny",
+      "process": "/Users/Ian/Applications/BBC iPlayer.app/Contents/MacOS/BBC iPlayer",
+      "remote": "any"
+    },
+    {
+      "action": "allow",
+      "process": "/Users/Ian/Applications/BBC iPlayer.app/Contents/Frameworks/BBC iPlayer Helper.app/Contents/MacOS/BBC iPlayer Helper",
+      "remote-domains": [
+        "bbc.co.uk",
+        "bbci.co.uk",
+        "bbc.com",
+        "webcatalog.io"
+      ]
+    },
+    {
+      "action": "deny",
+      "process": "/Users/Ian/Applications/BBC iPlayer.app/Contents/Frameworks/BBC iPlayer Helper.app/Contents/MacOS/BBC iPlayer Helper",
+      "remote": "any"
+    },
+    {
+      "action": "allow",
+      "process": "/Users/Ian/Applications/BBC Sounds.app/Contents/MacOS/BBC Sounds",
+      "remote-domains": [
+        "bbc.co.uk",
+        "bbc.com",
+        "bbci.co.uk",
+        "webcatalog.io"
+      ]
+    },
+    {
+      "action": "deny",
+      "process": "/Users/Ian/Applications/BBC Sounds.app/Contents/MacOS/BBC Sounds",
+      "remote": "any"
+    },
+    {
+      "action": "allow",
+      "process": "/Users/Ian/Applications/BBC Sounds.app/Contents/Frameworks/BBC Sounds Helper.app/Contents/MacOS/BBC Sounds Helper",
+      "remote-domains": [
+        "bbc.co.uk",
+        "bbc.com",
+        "bbci.co.uk",
+        "webcatalog.io"
+      ]
+    },
+    {
+      "action": "deny",
+      "process": "/Users/Ian/Applications/BBC Sounds.app/Contents/Frameworks/BBC Sounds Helper.app/Contents/MacOS/BBC Sounds Helper",
       "remote": "any"
     },
     {
