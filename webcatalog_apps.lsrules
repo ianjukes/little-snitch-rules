@@ -234,8 +234,7 @@
     {
       "action" : "deny",
       "process" : "\/Users\/Ian\/Applications\/AWS Builder Labs.app\/Contents\/MacOS\/AWS Builder Labs",
-      "remote" : "any",
-      "via" : "\/Users\/Ian\/Applications\/AWS Builder Labs.app\/Contents\/Frameworks\/AWS Builder Labs Helper.app\/Contents\/MacOS\/AWS Builder Labs Helper"
+      "remote" : "any"
     },
     {
       "action" : "allow",
@@ -256,7 +255,7 @@
       "action" : "deny",
       "process" : "\/Users\/Ian\/Applications\/AWS Builder Labs.app\/Contents\/Frameworks\/AWS Builder Labs Helper.app\/Contents\/MacOS\/AWS Builder Labs Helper",
       "remote" : "any"
-    }
+    },
     {
       "action": "allow",
       "process": "/Users/Ian/Applications/AWS Skill Builder.app/Contents/MacOS/AWS Skill Builder",
