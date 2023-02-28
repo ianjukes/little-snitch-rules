@@ -547,8 +547,18 @@
     {
       "action": "allow",
       "process": "/Users/Ian/Applications/FreeAgent.app/Contents/MacOS/FreeAgent",
+      "remote-hosts": [
+        "fonts.googleapis.com",
+        "fonts.gstatic.com"
+      ]
+    },
+    {
+      "action": "allow",
+      "process": "/Users/Ian/Applications/FreeAgent.app/Contents/MacOS/FreeAgent",
       "remote-domains": [
+        "amazonaws.com",
         "freeagent.com",
+        "noomedia.com",
         "webcatalog.io"
       ]
     },
@@ -560,8 +570,18 @@
     {
       "action": "allow",
       "process": "/Users/Ian/Applications/FreeAgent.app/Contents/Frameworks/FreeAgent Helper.app/Contents/MacOS/FreeAgent Helper",
+      "remote-hosts": [
+        "fonts.googleapis.com",
+        "fonts.gstatic.com"
+      ]
+    },
+    {
+      "action": "allow",
+      "process": "/Users/Ian/Applications/FreeAgent.app/Contents/Frameworks/FreeAgent Helper.app/Contents/MacOS/FreeAgent Helper",
       "remote-domains": [
+        "amazonaws.com",
         "freeagent.com",
+        "noomedia.com",
         "webcatalog.io"
       ]
     },
