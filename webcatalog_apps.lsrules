@@ -449,6 +449,8 @@
         "auth0.com",
         "cloudflare.com",
         "openai.com",
+        "stripe.com",
+        "stripecdn.com",
         "webcatalog.io"
       ]
     },
@@ -464,6 +466,8 @@
         "auth0.com",
         "cloudflare.com",
         "openai.com",
+        "stripe.com",
+        "stripecdn.com",
         "webcatalog.io"
       ]
     },
