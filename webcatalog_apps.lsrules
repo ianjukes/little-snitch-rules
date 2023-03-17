@@ -551,14 +551,6 @@
     {
       "action": "allow",
       "process": "/Users/Ian/Applications/FreeAgent.app/Contents/MacOS/FreeAgent",
-      "remote-hosts": [
-        "fonts.googleapis.com",
-        "fonts.gstatic.com"
-      ]
-    },
-    {
-      "action": "allow",
-      "process": "/Users/Ian/Applications/FreeAgent.app/Contents/MacOS/FreeAgent",
       "remote-domains": [
         "amazonaws.com",
         "freeagent.com",
@@ -570,14 +562,6 @@
       "action": "deny",
       "process": "/Users/Ian/Applications/FreeAgent.app/Contents/MacOS/FreeAgent",
       "remote": "any"
-    },
-    {
-      "action": "allow",
-      "process": "/Users/Ian/Applications/FreeAgent.app/Contents/Frameworks/FreeAgent Helper.app/Contents/MacOS/FreeAgent Helper",
-      "remote-hosts": [
-        "fonts.googleapis.com",
-        "fonts.gstatic.com"
-      ]
     },
     {
       "action": "allow",
@@ -719,11 +703,6 @@
     {
       "action": "allow",
       "process": "/Users/Ian/Applications/liveBooks.app/Contents/MacOS/liveBooks",
-      "remote-hosts": "fonts.gstatic.com"
-    },
-    {
-      "action": "allow",
-      "process": "/Users/Ian/Applications/liveBooks.app/Contents/MacOS/liveBooks",
       "remote-domains": [
         "amazonaws.com",
         "cloudfront.net",
@@ -739,11 +718,6 @@
     {
       "action": "allow",
       "process": "/Users/Ian/Applications/liveBooks.app/Contents/Frameworks/liveBooks Helper.app/Contents/MacOS/liveBooks Helper",
-      "remote-hosts": "fonts.gstatic.com"
-    },
-    {
-      "action": "allow",
-      "process": "/Users/Ian/Applications/liveBooks.app/Contents/Frameworks/liveBooks Helper.app/Contents/MacOS/liveBooks Helper",
       "remote-domains": [
         "amazonaws.com",
         "cloudfront.net",
@@ -755,15 +729,6 @@
       "action": "deny",
       "process": "/Users/Ian/Applications/liveBooks.app/Contents/Frameworks/liveBooks Helper.app/Contents/MacOS/liveBooks Helper",
       "remote": "any"
-    },
-    {
-      "action": "allow",
-      "process": "/Users/Ian/Applications/Logos.app/Contents/MacOS/Logos",
-      "remote-hosts": [
-        "cloud.typography.com",
-        "fonts.googleapis.com",
-        "fonts.gstatic.com"
-      ]
     },
     {
       "action": "allow",
@@ -779,15 +744,6 @@
       "action": "deny",
       "process": "/Users/Ian/Applications/Logos.app/Contents/MacOS/Logos",
       "remote": "any"
-    },
-    {
-      "action": "allow",
-      "process": "/Users/Ian/Applications/Logos.app/Contents/Frameworks/Logos Helper.app/Contents/MacOS/Logos Helper",
-      "remote-hosts": [
-        "cloud.typography.com",
-        "fonts.googleapis.com",
-        "fonts.gstatic.com"
-      ]
     },
     {
       "action": "allow",
@@ -875,7 +831,6 @@
       "process": "/Users/Ian/Applications/Rightmove.app/Contents/MacOS/Rightmove",
       "remote-hosts": [
         "code.jquery.com",
-        "fonts.googleapis.com",
         "maps.googleapis.com",
         "maps.gstatic.com",
         "region1.google-analytics.com"
@@ -900,7 +855,6 @@
       "process": "/Users/Ian/Applications/Rightmove.app/Contents/Frameworks/Rightmove Helper.app/Contents/MacOS/Rightmove Helper",
       "remote-hosts": [
         "code.jquery.com",
-        "fonts.googleapis.com",
         "maps.googleapis.com",
         "maps.gstatic.com",
         "region1.google-analytics.com"
@@ -919,14 +873,6 @@
       "action": "deny",
       "process": "/Users/Ian/Applications/Rightmove.app/Contents/Frameworks/Rightmove Helper.app/Contents/MacOS/Rightmove Helper",
       "remote": "any"
-    },
-    {
-      "action": "allow",
-      "process": "/Users/Ian/Applications/Slides.app/Contents/MacOS/Slides",
-      "remote-hosts": [
-        "fonts.googleapis.com",
-        "fonts.gstatic.com"
-      ]
     },
     {
       "action": "allow",
@@ -943,14 +889,6 @@
       "action": "deny",
       "process": "/Users/Ian/Applications/Slides.app/Contents/MacOS/Slides",
       "remote": "any"
-    },
-    {
-      "action": "allow",
-      "process": "/Users/Ian/Applications/Slides.app/Contents/Frameworks/Slides Helper.app/Contents/MacOS/Slides Helper",
-      "remote-hosts": [
-        "fonts.googleapis.com",
-        "fonts.gstatic.com"
-      ]
     },
     {
       "action": "allow",
@@ -1002,11 +940,6 @@
       "action": "deny",
       "process": "/Users/Ian/Applications/TV Guide.app/Contents/MacOS/TV Guide",
       "remote-hosts": "ads.thetimes.co.uk"
-    },
-    {
-      "action": "allow",
-      "process": "/Users/Ian/Applications/TV Guide.app/Contents/MacOS/TV Guide",
-      "remote-hosts": "fonts.googleapis.com"
     },
     {
       "action": "allow",
@@ -1031,11 +964,6 @@
       "action": "deny",
       "process": "/Users/Ian/Applications/TV Guide.app/Contents/Frameworks/TV Guide Helper.app/Contents/MacOS/TV Guide Helper",
       "remote-hosts": "ads.thetimes.co.uk"
-    },
-    {
-      "action": "allow",
-      "process": "/Users/Ian/Applications/TV Guide.app/Contents/Frameworks/TV Guide Helper.app/Contents/MacOS/TV Guide Helper",
-      "remote-hosts": "fonts.googleapis.com"
     },
     {
       "action": "allow",
