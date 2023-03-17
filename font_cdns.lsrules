@@ -5,6 +5,7 @@
     {
       "action" : "allow",
       "remote-hosts" : [
+        "cloud.typography.com",
         "fonts.googleapis.com",
         "fonts.gstatic.com",
         "use.fontawesome.com",
