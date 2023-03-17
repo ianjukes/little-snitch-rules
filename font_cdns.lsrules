@@ -1,0 +1,15 @@
+{
+  "description" : "Rules to allow access to public font CDNs.",
+  "name" : "Font CDNs",
+  "rules" : [
+    {
+      "action" : "allow",
+      "remote-hosts" : [
+        "fonts.googleapis.com",
+        "fonts.gstatic.com",
+        "use.fontawesome.com",
+        "use.typekit.com"
+      ]
+    }
+  ]
+}
