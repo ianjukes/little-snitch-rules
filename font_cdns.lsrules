@@ -10,7 +10,8 @@
         "fonts.gstatic.com",
         "use.fontawesome.com",
         "use.typekit.com"
-      ]
+      ],
+      "requiresTrustedSignatureForAnyProcess" : false
     }
   ]
 }
