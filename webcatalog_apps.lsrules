@@ -1044,6 +1044,24 @@
     },
     {
       "action": "allow",
+      "process": "/Users/Ian/Applications/Vanguard Investor.app/Contents/MacOS/Vanguard Investor",
+      "remote-domains": [
+        "vanguard.com",
+        "vanguardinvestor.co.uk",
+        "vgdynamic.info"
+      ]      
+    },
+    {
+      "action": "allow",
+      "process": "Users/Ian/Applications/Vanguard Investor.app/Contents/Frameworks/Vanguard Investor Helper.app/Contents/MacOS/Vanguard Investor Helper",
+      "remote-domains": [
+        "vanguard.com",
+        "vanguardinvestor.co.uk",
+        "vgdynamic.info"
+      ]      
+    },
+    {
+      "action": "allow",
       "process": "/Users/Ian/Applications/YouTube.app/Contents/MacOS/YouTube",
       "remote-hosts": [
         "accounts.google.co.uk",
