@@ -1048,8 +1048,14 @@
       "remote-domains": [
         "vanguard.com",
         "vanguardinvestor.co.uk",
-        "vgdynamic.info"
+        "vgdynamic.info",
+        "webcatalog.io"
       ]      
+    },
+    {
+      "action": "deny",
+      "process": "/Users/Ian/Applications/Vanguard Investor.app/Contents/MacOS/Vanguard Investor",
+      "remote": "any"
     },
     {
       "action": "allow",
@@ -1057,8 +1063,14 @@
       "remote-domains": [
         "vanguard.com",
         "vanguardinvestor.co.uk",
-        "vgdynamic.info"
+        "vgdynamic.info",
+        "webcatalog.io"
       ]      
+    },
+    {
+      "action": "deny",
+      "process": "/Users/Ian/Applications/Vanguard Investor.app/Contents/Frameworks/Vanguard Investor Helper.app/Contents/MacOS/Vanguard Investor Helper",
+      "remote": "any"
     },
     {
       "action": "allow",
@@ -1076,6 +1088,7 @@
         "googleusercontent.com",
         "googlevideo.com",
         "gstatic.com",
+        "webcatalog.io",
         "youtube.com",
         "ytimg.com"
       ]
@@ -1101,6 +1114,7 @@
         "googleusercontent.com",
         "googlevideo.com",
         "gstatic.com",
+        "webcatalog.io",
         "youtube.com",
         "ytimg.com"
       ]
