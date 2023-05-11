@@ -1046,6 +1046,7 @@
       "action": "allow",
       "process": "/Users/Ian/Applications/Vanguard Investor.app/Contents/MacOS/Vanguard Investor",
       "remote-domains": [
+        "auth0.com",
         "vanguard.com",
         "vanguardinvestor.co.uk",
         "vgdynamic.info",
@@ -1061,6 +1062,7 @@
       "action": "allow",
       "process": "/Users/Ian/Applications/Vanguard Investor.app/Contents/Frameworks/Vanguard Investor Helper.app/Contents/MacOS/Vanguard Investor Helper",
       "remote-domains": [
+        "auth0.com",
         "vanguard.com",
         "vanguardinvestor.co.uk",
         "vgdynamic.info",
