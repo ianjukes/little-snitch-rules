@@ -987,7 +987,10 @@
     {
       "action": "allow",
       "process": "/Users/Ian/Applications/UniFi Controller.app/Contents/MacOS/UniFi Controller",
-      "remote-domains": "webcatalog.io"
+      "remote-domains": [
+        "ubnt.com",
+        "webcatalog.io"
+      ]
     },
     {
       "action": "allow",
@@ -1002,7 +1005,10 @@
     {
       "action": "allow",
       "process": "/Users/Ian/Applications/UniFi Controller.app/Contents/Frameworks/UniFi Controller Helper.app/Contents/MacOS/UniFi Controller Helper",
-      "remote-domains": "webcatalog.io"
+      "remote-domains": [
+        "ubnt.com",
+        "webcatalog.io"
+      ]
     },
     {
       "action": "allow",
