@@ -34,34 +34,6 @@
     },
     {
       "action": "allow",
-      "process": "/Users/Ian/Applications/500px.app/Contents/MacOS/500px",
-      "remote-domains": [
-        "500px.com",
-        "500px.org",
-        "webcatalog.io"
-      ]
-    },
-    {
-      "action": "deny",
-      "process": "/Users/Ian/Applications/500px.app/Contents/MacOS/500px",
-      "remote": "any"
-    },
-    {
-      "action": "allow",
-      "process": "/Users/Ian/Applications/500px.app/Contents/Frameworks/500px Helper.app/Contents/MacOS/500px Helper",
-      "remote-domains": [
-        "500px.com",
-        "500px.org",
-        "webcatalog.io"
-      ]
-    },
-    {
-      "action": "deny",
-      "process": "/Users/Ian/Applications/500px.app/Contents/Frameworks/500px Helper.app/Contents/MacOS/500px Helper",
-      "remote": "any"
-    },
-    {
-      "action": "allow",
       "process": "/Users/Ian/Applications/Airbnb.app/Contents/MacOS/Airbnb",
       "remote-hosts": [
         "a0.muscache.com",
