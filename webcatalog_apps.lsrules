@@ -659,6 +659,12 @@
       "remote": "any"
     },
     {
+      "action" : "deny",
+      "direction" : "incoming",
+      "process" : "/Users/Ian/Applications/LinkedIn.app/Contents/MacOS/LinkedIn",
+      "remote" : "local-net"
+    },
+    {
       "action": "allow",
       "process": "/Users/Ian/Applications/LinkedIn.app/Contents/Frameworks/LinkedIn Helper.app/Contents/MacOS/LinkedIn Helper",
       "remote-domains": [
@@ -671,6 +677,12 @@
       "action": "deny",
       "process": "/Users/Ian/Applications/LinkedIn.app/Contents/Frameworks/LinkedIn Helper.app/Contents/MacOS/LinkedIn Helper",
       "remote": "any"
+    },
+    {
+      "action" : "deny",
+      "direction" : "incoming",
+      "process" : "/Users/Ian/Applications/LinkedIn.app/Contents/Frameworks/LinkedIn Helper.app/Contents/MacOS/LinkedIn Helper",
+      "remote" : "local-net"
     },
     {
       "action": "allow",
