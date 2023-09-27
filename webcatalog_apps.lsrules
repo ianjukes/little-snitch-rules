@@ -420,6 +420,7 @@
       "remote-domains": [
         "auth0.com",
         "cloudflare.com",
+        "oaistatic.com",
         "openai.com",
         "stripe.com",
         "stripecdn.com",
@@ -437,6 +438,7 @@
       "remote-domains": [
         "auth0.com",
         "cloudflare.com",
+        "oaistatic.com",
         "openai.com",
         "stripe.com",
         "stripecdn.com",
