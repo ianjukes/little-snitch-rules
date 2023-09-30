@@ -686,8 +686,10 @@
       "process": "/Users/Ian/Applications/Logos.app/Contents/MacOS/Logos",
       "remote-domains": [
         "faithlife.com",
+        "gstatic.com",
         "logos.com",
-        "logoscdn.com"
+        "logoscdn.com",
+        "recaptcha.net"
       ]
     },
     {
