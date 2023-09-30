@@ -1,6 +1,6 @@
 {
-  "name": "WebCatalog Apps",
-  "description": "Rules to control the various browser-based apps created by WebCatalog.",
+  "name": "Web Apps",
+  "description": "Rules to control different browser-based apps.",
   "rules": [
     {
       "action": "allow",
@@ -423,8 +423,7 @@
         "oaistatic.com",
         "openai.com",
         "stripe.com",
-        "stripecdn.com",
-        "webcatalog.io"
+        "stripecdn.com"
       ]
     },
     {
@@ -434,24 +433,6 @@
     },
     {
       "action": "allow",
-      "process": "/Users/Ian/Applications/ChatGPT.app/Contents/Frameworks/ChatGPT Helper.app/Contents/MacOS/ChatGPT Helper",
-      "remote-domains": [
-        "auth0.com",
-        "cloudflare.com",
-        "oaistatic.com",
-        "openai.com",
-        "stripe.com",
-        "stripecdn.com",
-        "webcatalog.io"
-      ]
-    },
-    {
-      "action": "deny",
-      "process": "/Users/Ian/Applications/ChatGPT.app/Contents/Frameworks/ChatGPT Helper.app/Contents/MacOS/ChatGPT Helper",
-      "remote": "any"
-    },
-    {
-      "action": "allow",
       "process": "/Users/Ian/Applications/ESV Bible.app/Contents/MacOS/ESV Bible",
       "remote-hosts": "cloud.typography.com"
     },
@@ -528,28 +509,12 @@
       "remote-domains": [
         "amazonaws.com",
         "freeagent.com",
-        "noomedia.com",
-        "webcatalog.io"
+        "noomedia.com"
       ]
     },
     {
       "action": "deny",
       "process": "/Users/Ian/Applications/FreeAgent.app/Contents/MacOS/FreeAgent",
-      "remote": "any"
-    },
-    {
-      "action": "allow",
-      "process": "/Users/Ian/Applications/FreeAgent.app/Contents/Frameworks/FreeAgent Helper.app/Contents/MacOS/FreeAgent Helper",
-      "remote-domains": [
-        "amazonaws.com",
-        "freeagent.com",
-        "noomedia.com",
-        "webcatalog.io"
-      ]
-    },
-    {
-      "action": "deny",
-      "process": "/Users/Ian/Applications/FreeAgent.app/Contents/Frameworks/FreeAgent Helper.app/Contents/MacOS/FreeAgent Helper",
       "remote": "any"
     },
     {
@@ -722,28 +687,12 @@
       "remote-domains": [
         "faithlife.com",
         "logos.com",
-        "logoscdn.com",
-        "webcatalog.io"
+        "logoscdn.com"
       ]
     },
     {
       "action": "deny",
       "process": "/Users/Ian/Applications/Logos.app/Contents/MacOS/Logos",
-      "remote": "any"
-    },
-    {
-      "action": "allow",
-      "process": "/Users/Ian/Applications/Logos.app/Contents/Frameworks/Logos Helper.app/Contents/MacOS/Logos Helper",
-      "remote-domains": [
-        "faithlife.com",
-        "logos.com",
-        "logoscdn.com",
-        "webcatalog.io"
-      ]
-    },
-    {
-      "action": "deny",
-      "process": "/Users/Ian/Applications/Logos.app/Contents/Frameworks/Logos Helper.app/Contents/MacOS/Logos Helper",
       "remote": "any"
     },
     {
